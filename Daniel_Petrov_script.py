@@ -6,13 +6,13 @@ class Calculator():
         self.a = a
         self.b = b
 
-    def sum (self, a, b):
+    def sum (self):
         return self.a + self.b
 
-    def sub (self, a, b):
+    def sub (self):
         return self.a + self.b
 
-    def mul (self, a, b):
+    def mul (self):
         return self.a * self.b
 
 if __name__ == "__main__":
@@ -29,11 +29,11 @@ if __name__ == "__main__":
     print (operation)
 
     if int(operation) == 1:
-        print ("The sum of a and b is: %d" %test_object.sum(a,b))
+        print ("The sum of a and b is: %d" %test_object.sum())
     elif int(operation) == 2:
-        print ("The result is: %d" %test_object.sub(a,b))
+        print ("The result is: %d" %test_object.sub())
     elif int(operation) == 3:
-        print ("a and b multiplied gives us: %d" %test_object.mul(a,b))
+        print ("a and b multiplied gives us: %d" %test_object.mul())
     else:
         print ("Please select a valid option!")
 
