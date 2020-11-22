@@ -16,12 +16,12 @@ input_oper = input("Enter operator + , - or *: ")
 
 if  input_oper == "+":
     add = Calculate(input_a, input_b)
-    print(add.addition())
+    print(f"Result is: {add.addition()}")
 elif input_oper == "-":
     div = Calculate(input_a, input_b)
-    print(div.divide())
+    print(f"Result is: {div.divide()}")
 elif input_oper == "*":
     mlt = Calculate(input_a, input_b)
-    print(mlt.multiply())
+    print(f"Result is: {mlt.multiply()}")
 else:
     print("Wrong operator, try again!")
