@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <switch>
+    <spines>
+        <role>spine</role>
+        <type>N9K</type>
+        <hostname>Spine201</hostname>
+        <role>spine</role>
+        <type>N9K</type>
+        <hostname>Spine202</hostname>
+        <role>leaf</role>
+        <type>N9K</type>
+        <hostname>Leaf101</hostname>
+    </spines>
+    <leafs>
+        <role>leaf</role>
+        <type>N9K</type>
+        <hostname>Leaf102</hostname>
+        <role>leaf</role>
+        <type>N9K</type>
+        <hostname>Leaf103</hostname>
+    </leafs>
+</switch>
+
+    
