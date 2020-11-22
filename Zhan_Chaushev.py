@@ -14,6 +14,7 @@ class Calculator():
 if __name__ == "__main__":
     a = int(input("Value for a:" ))
     b = int(input("Value for b:"))
+    
     action = input("Choose action: +,-,*: " )
     if action == "+":
         print(a, "+", b, "=", 
@@ -26,7 +27,7 @@ if __name__ == "__main__":
     elif action == "*":
         print(a, "*", b, "=", 
                     Calculator.umnojenie(a,b))
-        
+            
     else:
         print ("Illegal action chosen")
     
