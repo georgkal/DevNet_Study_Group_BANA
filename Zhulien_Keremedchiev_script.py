@@ -34,3 +34,5 @@ if __name__ == "__main__":
     elif action == "/":
         delenie = Calculator.delenie(a,b)
         print(delenie)
+
+        
