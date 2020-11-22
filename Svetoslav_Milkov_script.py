@@ -19,20 +19,20 @@ class calculator():
         return c
 
 
-# if __init__ == "__main__":
+if __name__ == "__main__":
 
-operator = input("Chose an operator: ")
-a = int(input("Choose a number: "))
-b = int(input("Choose a second number: "))
+    operator = input("Chose an operator: ")
+    a = int(input("Choose a number: "))
+    b = int(input("Choose a second number: "))
 
-if operator == "+":
-    result = calculator(a, b)
-    print(result.addition())
+    if operator == "+":
+        result = calculator(a, b)
+        print(result.addition())
 
-elif operator == "-":
-    result = calculator(a,b)
-    print(result.subtraction())
-elif operator == "*":
-    result = calculator(a,b)
-    print(result.multiplication())
+    elif operator == "-":
+        result = calculator(a,b)
+        print(result.subtraction())
+    elif operator == "*":
+        result = calculator(a,b)
+        print(result.multiplication())
 
