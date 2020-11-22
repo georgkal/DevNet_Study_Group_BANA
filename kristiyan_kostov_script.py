@@ -17,10 +17,14 @@ class Calculator():
         return ops[self.action](self.a, self.b)
 
 if __name__ == "__main__":
-    calc = Calculator(int(input("Input a: ")), int(input("Input b: ")), input("Input action as \"+\" \"-\" \"*\" or \"/\": "))
+    try:
+        calc = Calculator(int(input("Input a: ")), int(input("Input b: ")), input("Input action as \"+\" \"-\" \"*\" or \"/\": "))
+    except:
+        print("Invalid input!")
+        exit()
     
     if (calc.action != "+" and calc.action != "-" and calc.action != "*" and calc.action != "/"):
-        result = "***ERROR***"
+        result = "Invalid action!"
     else:
         result = calc.calculate()
     
