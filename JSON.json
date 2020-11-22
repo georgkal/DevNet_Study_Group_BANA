@@ -1,0 +1,35 @@
+{
+    "switches": 
+    {
+        "spine": [
+        {
+            "role": "Spine",
+            "type": "N9K",
+            "hostname": "Spine201"
+        },
+        {
+            "role": "Spine",
+            "type": "N9K",
+            "hostname": "Spine202"
+        }],
+        "leaf": 
+        [
+            {
+            "role": "Leaf",
+            "type": "N9K",
+            "hostname": "Spine101"
+        },
+        {
+            "role": "Leaf",
+            "type": "N9K",
+            "hostname": "Spine102"
+        },
+            {
+                "role": "Leaf",
+                "type": "N9K",
+                "hostname": "Spine103"
+            }
+        ]
+
+    }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <body>
+        <spine id="1">
+            <role> Spine </role>
+            <type> N9K </type>
+            <hostname> Spine201 </hostname>
+        </spine>
+        <spine id="2">
+            <role> Spine </role>
+            <type> N9K </type>
+            <hostname> Spine202 </hostname>
+        </spine>
+        <leaf id="1">
+            <role> Leaf </role>
+            <type> N9K </type>
+            <hostname> Spine101 </hostname>
+        </leaf>
+        <leaf id="2">
+            <role> Leaf </role>
+            <type> N9K </type>
+            <hostname> Spine102 </hostname>
+        </leaf>
+        <leaf id="3">
+            <role> Leaf </role>
+            <type> N9K </type>
+            <hostname> Spine103 </hostname>
+        </leaf>
+    </body>
