@@ -6,25 +6,27 @@ class Calculator:
         self.a = a
         self.b = b
     
-    def add(a, b):
-        print(a + b)
+    def add(self):
+        print(self.a + self.b)
 
-    def substract(a, b):
-        print(b - a)
+    def substract(self):
+        print(self.a - self.b)
     
-    def multiply(a, b):
-        print(a * b)
+    def multiply(self):
+        print(self.a * self.b)
 
 x = int(input("Enter the first number: "))
 y = int(input("Enter the second number: "))
 z = input("Enter the operation: ")
 
+calculate = Calculator(x, y)
+
 if z == '*':
-    result = Calculator.multiply(x, y)  
+    result = calculate.multiply()
 elif z == '+':
-    result = Calculator.add(x, y)
+    result = calculate.add()
 elif z == '-':
-    result = Calculator.substract(x, y)
+    result = Calculator.substract()
 else:
     result = "Invalid action."
 
