@@ -1,0 +1,14 @@
+---
+spine:
+- type: N9k
+  hostname: Spine201
+- type: N9k
+  hostname: Spine202
+leaf:
+- type: N9k
+  hostname: Leaf201
+- type: N9k
+  hostname: Leaf202
+- type: N9k
+  hostname: Leaf203
+...
