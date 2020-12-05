@@ -1,0 +1,15 @@
+{
+    "spine":[
+        {"type": "N9K",
+        "hostname":"Spine201"},
+        {"type": "N9K",
+        "hostname": "Spine202"
+        }],
+    "leaf": [
+        {"type":"N9K",
+        "hostname":"Leaf201"},
+        {"type":"N9K",
+        "hostname":"Leaf202"},
+        {"type":"N9K",
+        "hostname":"Leaf203"}
+    ] }
